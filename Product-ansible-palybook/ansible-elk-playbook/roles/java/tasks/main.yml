@@ -1,0 +1,20 @@
+---
+#
+# Installing Java 
+#
+- name: Update and upgrade apt packages
+  become: true
+  apt:
+    upgrade: yes
+    update_cache: yes
+    cache_valid_time: 86400 #One day
+
+- name: installing jre
+  apt:
+    name: default-jre
+    state: latest
+
+- name: installing jdk
+  apt:
+    name: default-jdk
+    state: latest
