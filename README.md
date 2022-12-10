@@ -1,11 +1,11 @@
 # logging-and-monitoring-product
 
-...Problem statement
+**Problem statement**
 Monitoring and Logging of application in any environment like containerized environment, cluster and bare metal.​
 
 Develop a logging and monitoring utility mode to enhance the output of  which can monitor and observe the application.​
 
-...Objectives
+**Objectives**
 
 To make a solution which can monitor and observe the application.​
 
@@ -21,7 +21,7 @@ Diagnosing and identifying the root cause of application installation and run-ti
 
 We will deploy ansible playbooks and docker compose files to deploy our solutions.​
 
-steps to deploy ELK stack:-<br />
+**steps to deploy ELK stack:-<br />**
 <br />
 
 1.clone this repository.<br />
