@@ -22,9 +22,9 @@ Diagnosing and identifying the root cause of application installation and run-ti
 We will deploy ansible playbooks and docker compose files to deploy our solutions.​
 
 steps to deploy ELK stack:-
-1.clone this repository.
-2.start the containers by using  docker-compose up -d   command
-3.update the logstash.conf file by providing the correct IP with specified port i.e 9200 for elasticsearch.
+1.clone this repository.<br />
+2.start the containers by using  docker-compose up -d   command <br />
+3.update the logstash.conf file by providing the correct IP with specified port i.e 9200 for elasticsearch. <br />
 4.now to test our setup start an additional nginx container using docker CLI.
 5.Access kibana at specific IP with specified port i.e 5601.
 6.create index pattern using * and @timestamp 
